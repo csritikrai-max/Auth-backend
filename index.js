@@ -14,7 +14,7 @@ dotenv.config();
 const index = express();
 
 index.use(cors({
-    origin: "http://localhost:3000",
+    origin: "https://auth-frontend-gamma-taupe.vercel.app/",
     credentials: true,
 }));
 
